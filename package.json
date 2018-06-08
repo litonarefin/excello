@@ -1,0 +1,56 @@
+{
+  "name": "excello",
+  "description": "Excello - A VueJS Admin Dashboard Template by VueJS Admin",
+  "version": "1.0.0",
+  "author": "VueJS Admin<vuejsmin@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "amcharts3": "^3.21.12",
+    "ammap3": "^3.21.12",
+    "animate.css": "^3.6.1",
+    "chart.js": "^2.7.2",
+    "google-maps": "^3.2.1",
+    "is-url-external": "^1.0.3",
+    "jquery": "^3.3.1",
+    "leaflet-map": "^0.2.1",
+    "owl-carousel-2": "^0.0.3",
+    "pure-semantic-ui-css": "^2.1.8",
+    "vue": "^2.5.11",
+    "vue-2-breadcrumbs": "^0.2.2",
+    "vue-chartjs": "^3.2.1",
+    "vue-easy-slider": "^3.2.0",
+    "vue-lunar-calendar": "^1.5.3",
+    "vue-morris": "^0.0.13",
+    "vue-router": "^3.0.1",
+    "vue2-google-maps": "^0.8.11",
+    "vuex": "^3.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

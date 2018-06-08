@@ -1,0 +1,161 @@
+// Open Sans Google Fonts //
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@import '~animate.css';
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+  background: #ffffff;
+}
+
+*{
+  outline: none;
+}
+
+body {
+      background: #fff;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      overflow-x: hidden;
+      color: #67757c;
+}
+
+a {
+  &:focus, &:hover {
+    text-decoration: none;
+  }
+  &.link {
+    color: #455a64;
+    &:focus, &:hover {
+      color: #1976d2;
+    }
+  }
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.carousel.vertical .carousel-inner > .item > {
+  img, a > img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+.img-rounded {
+  border-radius: 4px;
+}
+
+.mdi-set, .mdi:before {
+  line-height: initial;
+}
+
+.preloader {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 99999;
+  background: #fff;
+  .cssload-speeding-wheel {
+    position: absolute;
+    top: calc(46.5%);
+    left: calc(46.5%);
+  }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #455a64;
+  font-weight: 400;
+}
+
+h1 {
+  line-height: 40px;
+  font-size: 36px;
+}
+
+h2 {
+  line-height: 36px;
+  font-size: 24px;
+}
+
+h3 {
+  line-height: 30px;
+  font-size: 21px;
+}
+
+h4 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+h5 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h6 {
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.display-5 {
+  font-size: 3rem;
+}
+
+.display-6 {
+  font-size: 36px;
+}
+
+.box {
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#main-wrapper {
+  width: 100%;
+}
+
+.bg-white .card {
+  box-shadow: none;
+}
+
+.box-shadow {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+.dropzone {
+  border: 1px dashed #b1b8bb;
+}
+
+.boxed #main-wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+  .sidebar-footer {
+    position: absolute;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+.page-wrapper {
+  background: #fafafa;
+  padding-bottom: 60px;
+}
+
+.container-fluid {
+  padding: 0 30px 25px;
+}
