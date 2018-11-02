@@ -10,7 +10,7 @@ Check out Basix Admin Template Pro [Themeforest Page](https://themeforest.net/it
 Vue.js the best way to create reactive data binding between Document Object Model (DOM) and your HTML Markup using javascript. Vue.js is the lightweight version of some other complex framework. It's the popular framework for Single Page Application(SPA).
 ## Introduction
 Excello Developed for creating and managing admin dashboard. We have used the latest Development stack of vue.js. We believe that it's a complete package to create your application. 
-* [Preview](https://demos.vuejsadmin.com/vuemin/)
+* [Preview](https://demos.vuejsadmin.com/excello/)
 * [Documentation](https://docs.vuejsadmin.com/) 
 * [Website](https://vuejsadmin.com)
 ## Installation of Excello Template 
